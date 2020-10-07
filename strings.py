@@ -1,0 +1,14 @@
+continue_btn_xpath = "//div[5]/div/div[5]/div[4]/input"
+remove_course_btn_xpath = "//div[@id='requirements']/div[3]/div[2]/div[1]/a"
+semester_terms_class_name = 'term_radio_item'
+span = 'span'
+inner_html = 'innerHTML'
+radio_btn_input_name = 'radterm'
+course_search_input_id = 'code_number'
+seats_class_name = 'seatText'
+seats_full_class_name = 'fullText'
+lecture_sections_class_name = 'selection_row_radio'
+course_table_class_name = "selection_table"
+seats_full = 'Full'
+courses_file = 'courses.txt'
+results_file = 'results.txt'

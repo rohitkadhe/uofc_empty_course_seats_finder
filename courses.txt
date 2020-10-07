@@ -1,0 +1,5 @@
+Course Name, Term
+ENCM 467, 2020 Fall 
+ENCM 511, 2020 Fall
+ENEL 471, 2021 Winter
+CPSC 471, 2021 Winter

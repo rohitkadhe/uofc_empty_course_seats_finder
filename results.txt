@@ -1,0 +1,3 @@
+Course ('ENCM 467', '2020 Fall') has seats
+Course ('ENCM 511', '2020 Fall') is full
+Course ('ENEL 471', '2021 Winter') has seats
