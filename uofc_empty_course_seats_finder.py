@@ -3,6 +3,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from config import DRIVER as driver, WAIT as wait, SCHEDULE_BUILDER_URL
 import os
+import sys
+import subprocess
 import strings
 
 
@@ -70,6 +72,14 @@ def get_courses_from_file():
     return courses
 
 
+def open_file(filename):
+    if sys.platform == "win32":
+        os.startfile(filename)
+    else:
+        opener = "open" if sys.platform == "darwin" else "xdg-open"
+        subprocess.call([opener, filename])
+
+
 def report_if_empty_seats_found(courses):
     results = open(strings.results_file, "w")
     prev_term = ""
@@ -87,7 +97,7 @@ def report_if_empty_seats_found(courses):
         removeCourse()
 
     results.close()
-    os.startfile(strings.results_file)
+    open_file(strings.results_file)
 
 
 open_schedule_builder_page()
