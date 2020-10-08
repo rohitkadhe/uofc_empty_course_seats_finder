@@ -6,7 +6,9 @@
 
 - Ensure you have python installed
 - Navigate to the courses folder and open the courses text file
-- Enter the courses you want to check for empty seats in the following format:<br/>
+- Terms have to be in the following format: "'year' (Fall, Winter, Spring, Summer)"
+- Courses have to be in the follwing format: "'course code' 'course number'"
+- Example courses file:<br/>
   Course Name, Term<br/>
   ENCM 467, 2020 Fall<br/>
   ENCM 511, 2020 Fall<br/>
