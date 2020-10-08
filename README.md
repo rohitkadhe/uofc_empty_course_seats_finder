@@ -18,5 +18,5 @@
   ENCM 467, 2020 Fall<br/>
   ENCM 511, 2020 Fall<br/>
   ENEL 471, 2021 Winter<br/>
-- Open a terminal of choice in the project directory and type 'python3 empty_course_seats_notifier' to run the project
+- Open a terminal of choice in the project directory and type 'python3 uofc_empty_course_seats_finder' to run the project
 - A results text file will be generated and opened in the same folder. This file will let you know which courses have empty seats and which courses are full.
