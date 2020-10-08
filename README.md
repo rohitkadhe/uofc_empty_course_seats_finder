@@ -7,7 +7,7 @@
 - Ensure you have python3 installed
 - Ensure you have pip3 installed 
 - Download selenium by using 'pip3 install selenium' 
-- Ensure you have the correct 'chrome driver' installed which currently is for version 85.0
+- Ensure you have the correct 'chrome driver' installed which currently is for version 86
 
 ## Running the project
 - Navigate to the project folder and open the courses text file
