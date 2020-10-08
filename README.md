@@ -1,6 +1,6 @@
 # Uofc Empty Course Seats Notifier
 
-- Objective of this project automate the process of checking if ccourses at uofc have empty seats
+- Objective of this project automate the process of checking if courses at the University of Calgary (Uofc) have empty seats
 
 ## Running the project
 
