@@ -2,9 +2,14 @@
 
 - Objective of this project automate the process of checking if courses at the University of Calgary (Uofc) have empty seats
 
-## Running the project
+## Prerequisites 
 
 - Ensure you have python installed
+- Ensure you have pip3 installed 
+- Download selenium by using 'pip3 install selenium' 
+- Ensure you have the correct 'chrome driver' installed which currently is for version 85.0
+
+## Running the project
 - Navigate to the courses folder and open the courses text file
 - Terms have to be in the following format: "'year' (Fall, Winter, Spring, Summer)"
 - Courses have to be in the follwing format: "'course code' 'course number'"
