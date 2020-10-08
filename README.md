@@ -1,4 +1,4 @@
-# Uofc Empty Course Seats Notifier
+# Uofc Empty Course Seats Finder
 
 - Objective of this project automate the process of checking if courses at the University of Calgary (Uofc) have empty seats
 
