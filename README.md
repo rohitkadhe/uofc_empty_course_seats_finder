@@ -10,7 +10,7 @@
 - Ensure you have the correct 'chrome driver' installed which currently is for version 85.0
 
 ## Running the project
-- Navigate to the courses folder and open the courses text file
+- Navigate to the project folder and open the courses text file
 - Terms have to be in the following format: "'year' (Fall, Winter, Spring, Summer)"
 - Courses have to be in the follwing format: "'course code' 'course number'"
 - Example courses file:<br/>
