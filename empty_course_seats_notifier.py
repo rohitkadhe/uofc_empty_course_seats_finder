@@ -81,7 +81,7 @@ def report_if_empty_seats_found(courses):
         find_course(course_data[0])
 
         if(course_has_empty_seats()):
-            results.write("Course {} has seats\n".format(course_data))
+            results.write("Course {} has empty seats\n".format(course_data))
         else:
             results.write("Course {} is full\n".format(course_data))
         removeCourse()
